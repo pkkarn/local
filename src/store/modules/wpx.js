@@ -23,7 +23,7 @@ const mutations = {
 // Api fetch using axios
 const actions = {
     async fetchApiAction({commit}, country) {
-        const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${country}&unit=metric&appid=1f3cda3b32790247c37903ac750221cb`)
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${country}&unit=metric&appid=1f3cda3b32790247c37903ac750221cb`)
         const current_weather = response.data;
         commit('setWeather', current_weather);
     }
