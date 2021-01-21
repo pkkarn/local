@@ -69,9 +69,9 @@ export default {
             const day = days[(new Date().getDay()) - 1].toUpperCase()
             const month = (months[(new Date().getMonth())]).toUpperCase()
             const date = new Date().getDate()
-            const year = new Date().getFullYear()
-            const hour = new Date().getHours()
-            const min = new Date().getMinutes()
+            // const year = new Date().getFullYear()
+            // const hour = new Date().getHours()
+            // const min = new Date().getMinutes()
 
             const current_date_time = `${day} ${date},${month}`
             return current_date_time;
