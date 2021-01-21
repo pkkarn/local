@@ -1,5 +1,6 @@
 import axios from 'axios';
 const state = {
+    name:'PK Karn',
     url_main: 'http://api.openweathermap.org/data/2.5/',
     weather: {},
 }
