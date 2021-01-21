@@ -12,10 +12,18 @@ const mutations = {
     }
 }
 
+// axios.get('https://example.restdb.io/rest/mock-data', {
+//       headers: { 
+//       'x-apikey': 'API_KEY',
+//       },
+//     responseType: 'json',
+//      }).then(response => {
+//       this.setState({ tableData: response.data });
+//     });
 // Api fetch using axios
 const actions = {
     async fetchApiAction({commit}, country) {
-        const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${country}&unit=metric&appid=1f3cda3b32790247c37903ac750221cb`)
+        const response = await axios.get(`https://vuepk.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${country}&unit=metric&appid=1f3cda3b32790247c37903ac750221cb`)
         const current_weather = response.data;
         commit('setWeather', current_weather);
     }
