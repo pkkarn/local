@@ -1,4 +1,4 @@
-## Weather App Project
+## Weather App Project [Live](https://vuepk.herokuapp.com/)
 ---
 It's vuejs 2.x project, where I fetched weather data from [openweathermap](https://openweathermap.org/api). I've used vuex for state management.
 ### How to run this project
