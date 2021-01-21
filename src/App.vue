@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <WeatherApp />
-    <span class="credit"><strong>Designed by {{$store.state.wpx.name}} PK KARN</strong></span>
+    <span class="credit"><strong>Designed by PK KARN</strong></span>
   </div>
 </template>
 

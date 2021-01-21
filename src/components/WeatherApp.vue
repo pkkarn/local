@@ -99,10 +99,10 @@ export default {
         padding: 15px;
         /* background: none; */
         background: rgba(0, 0, 0, 0.58);
-        width: 400px;
+        /* width: 400px; */
         color: #fff;
         font-family: 'Raleway', sans-serif;
-        /* width: 80%; */
+        width: 80%;
     }
     .search-btn{
         width: 20%;
